@@ -1,5 +1,5 @@
 # Pruebas UI para Urban Routes :taxi:
-Urban Routes es una aplicación proveedora de movilidad como servicio. Antes del lanzamiento de su versión web al público, he llevado a cabo rigurosas pruebas de calidad para asegurar que la aplicación funcione correctamente de acuerdo con los requerimientos y diseños establecidos con el fin de garantizar que Urban Routes no solo cumpla, sino que supere los estándares de calidad esperados por los usuarios.
+Urban Routes es una aplicación proveedora de movilidad como servicio. Antes del lanzamiento de su versión web al público, he llevado a cabo rigurosas pruebas manuales para asegurar la calidad y funcionamiento correcto de acuerdo con los requerimientos y diseños establecidos con el fin de garantizar que Urban Routes no solo cumpla, sino que supere los estándares de calidad esperados por los usuarios.
 
 ![Urban Routes Web](https://github.com/Andrea-Pozas/Pruebas-UI-para-Urban-Routes-/blob/main/images/Urban%20Routes.png)
 
@@ -9,9 +9,10 @@ Urban Routes es una aplicación proveedora de movilidad como servicio. Antes del
 
 
 ## Pruebas manuales del formulario de reserva de Automóvil 
+
 ### Lista de comprobación del formulario de reserva
 
-El usuario debe seleccionar el punto de partida y de llegada en la aplicación Web Urban Routes, una vez seleccionada la ruta se abrirá el formulario de reserva. El furmulario permite elegir entre las siguientes tarifas: Casual, Camping y de Lujo. Con el fin de garantizar que el usuario puede realizar una reserva de un vehiculo exitosamente se realizaron pruebas de funcionalidad y diseño
+El usuario debe seleccionar el punto de partida y de llegada en la aplicación Web Urban Routes, una vez seleccionada la ruta se abrirá el formulario de reserva. El furmulario permite elegir entre las siguientes tarifas: Casual, Camping y de Lujo. Con el fin de garantizar que el usuario puede realizar una reserva de un vehiculo exitosamente se realizaron pruebas de funcionalidad y diseño. Al realizar las pruebas documenté cada uno de los errores que encontré en Jira, entre los errores descubrí que el usuario no tenía la posibilidad de cancelar la reserva de un viaje debido a que la ventana emergente no aparece por lo que considere un error crítico con una prioridad alta. 
 
 ### Lista de comprabación de las ventanas emergentes Método de pago y Agregar tarjeta
 El formulario de reserva cuanta con dos ventanas emergentes Método de pago y Agregar tarjeta. Cuando el usuario da clic en el método de pago puede agregar una tarjeta y el código de seguridad para realizar su pago, por ello se llevaron a cabo pruebas funcionales y no funcionales para garantizar que los requisitos se cumplen. 
