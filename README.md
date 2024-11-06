@@ -4,26 +4,28 @@ Urban Routes es una aplicación proveedora de movilidad como servicio. Antes del
 ![Urban Routes Web](https://github.com/Andrea-Pozas/Pruebas-UI-para-Urban-Routes-/blob/main/images/Urban%20Routes.png)
 
 ## Herramientas
-![Static Badge](https://img.shields.io/badge/Excel-black?style=for-the-badge&logoColor=white&color=%233CB371) ![Static Badge](https://img.shields.io/badge/Jira-%230052CC?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/Figma-%23F24E1E?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Excel-black?style=for-the-badge&logoColor=white&color=%233CB371) ![Static Badge](https://img.shields.io/badge/Jira-%230052CC?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/Figma-%23F24E1E?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/DevTools-black?style=for-the-badge)
+
 
 
 
 ## Pruebas manuales del formulario de reserva de Automóvil 
 
 ### Lista de comprobación del formulario de reserva
-
+<p align="justify">
 El usuario debe seleccionar el punto de partida y de llegada en la aplicación Web Urban Routes, una vez seleccionada la ruta se abrirá el formulario de reserva. El furmulario permite elegir entre las siguientes tarifas: Casual, Camping y de Lujo. Con el fin de garantizar que el usuario puede realizar una reserva de un vehiculo exitosamente se realizaron pruebas de funcionalidad y diseño. Al realizar las pruebas documenté cada uno de los errores que encontré en Jira, entre los errores descubrí que el usuario no tenía la posibilidad de cancelar la reserva de un viaje debido a que la ventana emergente no aparece por lo que considere un error crítico con una prioridad alta. 
+</p>
+![Formulario de reserva](https://github.com/Andrea-Pozas/Pruebas-UI-para-Urban-Routes-/blob/main/images/Formulario.png)
 
 ### Lista de comprabación de las ventanas emergentes Método de pago y Agregar tarjeta
-El formulario de reserva cuenta con dos ventanas emergentes Método de pago y Agregar tarjeta. Cuando el usuario da clic en el método se abre una ventana emergente que permité al usuario agregar una tarjeta y el código de seguridad para realizar su pago, para la ventana emergente Método de pago llevé a cabo pruebas de diseño y funcionales, mientras que para los campos de entrada de la venta emergente agregar tarjeta relicé pruebas positivas y negativas para corroborar que los campos sólo aceptaban datos válidos según los requerimientos. 
+<p align="justify"> El formulario de reserva cuenta con dos ventanas emergentes Método de pago y Agregar tarjeta. Cuando el usuario da clic en el método se abre una ventana emergente que permité al usuario agregar una tarjeta y el código de seguridad para realizar su pago, para la ventana emergente Método de pago llevé a cabo pruebas de diseño y funcionales, mientras que para los campos de entrada de la venta emergente agregar tarjeta relicé pruebas positivas y negativas para corroborar que los campos sólo aceptaban datos válidos según los requerimientos. </p>
+
 
 ### Casos de prueba y pruebas: la lógica del botón "Reservar"
-Redacté y ejecute casos de prueba para el el botón de reserva si un usuario rellena todos los campos correctamente el botón de reserva debería mostrar el siguiente mensaje: 
-El recorrido será de ... kilómetros y se hará en ... minutos y al hacer clic se abré una ventana emergente del automóvil reservado. Bajo esta lógica se crearon casos de prueba donde el usuario llena todos los campos obligatorios y obtiene un resultado éxitoso y otros casos de prueba donde el usuario no llena alguno de los campos obligatorios para reservar un autómovil y la plataforma redirige al usuario al campo que le falto llenar. Al realizar los casos de prueba descubrí que la plataforma no redirigía al usuario al campo que le faltaba llenar, permitiendo que se reservará un viaje sin la información necesaria. 
+<p align="justify"> Redacté y ejecute casos de prueba para el el botón de reserva si un usuario rellena todos los campos correctamente el botón de reserva debería mostrar el siguiente mensaje: El recorrido será de ... kilómetros y se hará en ... minutos y al hacer clic se abré una ventana emergente del automóvil reservado. Bajo esta lógica se crearon casos de prueba donde el usuario llena todos los campos obligatorios y obtiene un resultado éxitoso y otros casos de prueba donde el usuario no llena alguno de los campos obligatorios para reservar un autómovil y la plataforma redirige al usuario al campo que le falto llenar. Al realizar los casos de prueba descubrí que la plataforma no redirigía al usuario al campo que le faltaba llenar, permitiendo que se reservará un viaje sin la información necesaria.  </p>
 
 
-
-__Si deseas observar las listas de comprobación y los casos de prueba da clic aquí:__ [Pruebas UI Urban Routes](https://docs.google.com/spreadsheets/d/11OqDTIItugfeixfS3mfHmcMZ1DH8We9T/edit?usp=sharing&ouid=103915261935983096380&rtpof=true&sd=true)
+:arrow_right:__Si deseas observar las listas de comprobación y los casos de prueba da clic aquí:__ [Pruebas UI Urban Routes](https://docs.google.com/spreadsheets/d/11OqDTIItugfeixfS3mfHmcMZ1DH8We9T/edit?usp=sharing&ouid=103915261935983096380&rtpof=true&sd=true)
 
 ## Conclusión 
 Urban Routes es una plataforma que permite al usuario elegir entre distintos tipos de modos de viaje, de automóviles y tarifas que se ajustan a la búsqueda del consumidor. Además, tiene una interfaz intuitiva lo que favorece su interacción al ser amigable con la persona que lo utiliza. 
