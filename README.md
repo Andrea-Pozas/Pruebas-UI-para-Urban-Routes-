@@ -18,6 +18,9 @@ El usuario debe seleccionar el punto de partida y de llegada en la aplicación W
 El formulario de reserva cuenta con dos ventanas emergentes Método de pago y Agregar tarjeta. Cuando el usuario da clic en el método se abre una ventana emergente que permité al usuario agregar una tarjeta y el código de seguridad para realizar su pago, para la ventana emergente Método de pago llevé a cabo pruebas de diseño y funcionales, mientras que para los campos de entrada de la venta emergente agregar tarjeta relicé pruebas positivas y negativas para corroborar que los campos sólo aceptaban datos válidos según los requerimientos. 
 
 ### Casos de prueba y pruebas: la lógica del botón "Reservar"
+Redacté y ejecute casos de prueba para el el botón de reserva si un usuario rellena todos los campos correctamente el botón de reserva debería mostrar el siguiente mensaje: 
+El recorrido será de ... kilómetros y se hará en ... minutos y al hacer clic se abré una ventana emergente del automóvil reservado. Bajo esta lógica se crearon casos de prueba donde el usuario llena todos los campos obligatorios y obtiene un resultado éxitoso y otros casos de prueba donde el usuario no llena alguno de los campos obligatorios para reservar un autómovil y la plataforma redirige al usuario al campo que le falto llenar. Al realizar los casos de prueba descubrí que la plataforma no redirigía al usuario al campo que le faltaba llenar, permitiendo que se reservará un viaje sin la información necesaria. 
+
 
 
 __Si deseas observar las listas de comprobación y los casos de prueba da clic aquí:__ [Pruebas UI Urban Routes](https://docs.google.com/spreadsheets/d/11OqDTIItugfeixfS3mfHmcMZ1DH8We9T/edit?usp=sharing&ouid=103915261935983096380&rtpof=true&sd=true)
