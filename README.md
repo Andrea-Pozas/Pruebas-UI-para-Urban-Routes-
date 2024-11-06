@@ -33,6 +33,7 @@ Urban Routes es una plataforma que permite al usuario elegir entre distintos tip
 - Cuando el usuario elige una tarifa en el mapa no se muestra el icono del automóvil más cercano ni su marca. https://anliz24.atlassian.net/browse/BR-2 
 - Cuando el usuario elige una tarifa en el mapa no se visualizan todas las opciones de automóviles que se encuentran cerca. https://anliz24.atlassian.net/browse/BR-3 
 - El botón de cancelar reserva no funciona. https://anliz24.atlassian.net/browse/BR-6 
+
 Así mismo hay errores que hacen menos cómoda la experiencia del usuario, por ejemplo: 
 - Cuando el usuario decide agregar más de una tarjeta en método de pago, la interfaz no muestra los 4 últimos dígitos del número de cada tarjeta. https://anliz24.atlassian.net/browse/BR-13 
 - Cuando el usuario da clic en reservar sin haber introducido los campos obligatorios no se abre alguna ventana que permita el llenado de alguno de los campos obligatorios. https://anliz24.atlassian.net/browse/BR-15
