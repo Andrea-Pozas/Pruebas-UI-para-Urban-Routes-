@@ -36,7 +36,7 @@ Urban Routes es una plataforma que permite al usuario elegir entre distintos tip
 
 Así mismo hay errores que hacen menos cómoda la experiencia del usuario, por ejemplo: 
 - Cuando el usuario decide agregar más de una tarjeta en método de pago, la interfaz no muestra los 4 últimos dígitos del número de cada tarjeta. https://github.com/Andrea-Pozas/Pruebas-UI-para-Urban-Routes-/issues/3 :pushpin:
-- Cuando el usuario da clic en reservar sin haber introducido los campos obligatorios no se abre alguna ventana que permita el llenado de alguno de los campos obligatorios. https://anliz24.atlassian.net/browse/BR-15
+- Cuando el usuario da clic en reservar sin haber introducido los campos obligatorios no se abre alguna ventana que permita el llenado de alguno de los campos obligatorios. 
 
 A pesar de que Urban Routes podría ofrecer un buen servicio al consumidor gracias a sus diferentes elementos. Aún no está lista para que los usuarios y usarías comiencen a interactuar con la plataforma ya que los errores de funcionalidad podrían ocasionar que el usuario decida abandonar la aplicación al no poder realizar alguna de las acciones esenciales para el cumplimiento de su pedido.
 
