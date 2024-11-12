@@ -15,7 +15,9 @@ Urban Routes es una aplicación proveedora de movilidad como servicio. Antes del
 <p align="justify">
 El usuario debe seleccionar el punto de partida y de llegada en la aplicación Web Urban Routes, una vez seleccionada la ruta se abrirá el formulario de reserva. El furmulario permite elegir entre las siguientes tarifas: Casual, Camping y de Lujo. Con el fin de garantizar que el usuario puede realizar una reserva de un vehiculo exitosamente se realizaron pruebas de funcionalidad y diseño. Al realizar las pruebas documenté cada uno de los errores que encontré en Jira, entre los errores descubrí que el usuario no tenía la posibilidad de cancelar la reserva de un viaje debido a que la ventana emergente no aparece por lo que considere un error crítico con una prioridad alta. 
 </p>
-![Formulario de reserva](https://github.com/Andrea-Pozas/Pruebas-UI-para-Urban-Routes-/blob/main/images/Formulario.png)
+<div align="center">
+ <img src="https://github.com/Andrea-Pozas/Pruebas-UI-para-Urban-Routes-/blob/main/images/Formulario.png" alt="Formulario de reserva">
+</div>
 
 ### Lista de comprabación de las ventanas emergentes Método de pago y Agregar tarjeta
 <p align="justify"> El formulario de reserva cuenta con dos ventanas emergentes Método de pago y Agregar tarjeta. Cuando el usuario da clic en el método se abre una ventana emergente que permité al usuario agregar una tarjeta y el código de seguridad para realizar su pago, para la ventana emergente Método de pago llevé a cabo pruebas de diseño y funcionales, mientras que para los campos de entrada de la venta emergente agregar tarjeta relicé pruebas positivas y negativas para corroborar que los campos sólo aceptaban datos válidos según los requerimientos. </p>
